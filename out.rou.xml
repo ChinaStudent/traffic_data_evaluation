@@ -1,0 +1,10 @@
+<routes>
+   <vTypeDistribution id="mixed">
+   <vType id="car1" type="passenger" maxSpeed="58.393" length="4" accel="1.1359" tau="1.0455" minGap="6.3007" delta="4" carFollowModel="IDM" decel="1.1967" sigma="0" color="1,0,0"/>
+   <vType id="car2" type="passenger" maxSpeed="57.625" length="4" accel="1.136" tau="1.0455" minGap="3.3007" delta="4" carFollowModel="IDM" decel="1.1967" sigma="0" color="0,1,0"/>
+   </vTypeDistribution>
+
+   <route id="r0" edges="gneE2.0 gneE2.108"/>
+   <flow id="mixed" begin="0" end="500" number="10000" route="r0" type="mixed" departLane="best" departSpeed="8" departPosLat="random"/>
+
+</routes>
